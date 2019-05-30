@@ -22,7 +22,7 @@ $app->add(function ($req, $res, $next) {
 
 
 $app->get('/', function (Request $request, Response $response) {
-    return $response->withJson("Hello API - this is a json response");
+    return $response->withJson("Hello Slim3 API");
 });
 
 
