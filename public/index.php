@@ -20,7 +20,6 @@ $app->add(function ($req, $res, $next) {
 });
 //cors end
 
-
 $app->get('/', function (Request $request, Response $response) {
     return $response->withJson("Hello Slim3 API");
 });
